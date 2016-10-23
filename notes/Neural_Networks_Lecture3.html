@@ -12571,6 +12571,36 @@ $$\begin{align}
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Example</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>예를들어 $\textbf{x} = (x_1, x_2, \cdots , x_n)^T$ 와 같은 training case가 하나 있고,<br>
+여기에 대한 true output $t$가 있다고 하자.</p>
+<p>그리고 NN은 $n$개의 unit으로 구성된 input layer와 (hidden layer 없이) 단 하나의 logistic neuron으로 구성된 output layer로 이루어져 있고,<br>
+loss function은 아래와 같을 때
+$$E = \frac{1}{2} (t - y )^2$$</p>
+<p>back-propagation을 이용한 $w_i$의 수정치 $\Delta w_i$의 값은? (learning late은 $\epsilon$이라 하자.)</p>
+<p>$y_i$가 $x_i$이고, $\Delta w_i$는 $- \epsilon \frac{\partial E}{\partial w_{ij}}$이므로
+$$\Delta w_i = \epsilon x_i y_j (1 - y_j) (t_j - y_j)$$</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Lecture-3e,-How-to-use-the-derivatives-computed-by-the-backpropagation-algorithm.">Lecture 3e, How to use the derivatives computed by the backpropagation algorithm.<a class="anchor-link" href="#Lecture-3e,-How-to-use-the-derivatives-computed-by-the-backpropagation-algorithm.">&#182;</a></h3>
 </div>
 </div>
