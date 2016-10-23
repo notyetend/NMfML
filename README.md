@@ -6,6 +6,6 @@ Coursera에 Geoffrey Hinton 교수님 진행하는 [Neural Networks for Machine 
 
 <a href="https://github.com/notyetend/NMfML/blob/master/Neural%20Networks%20-%20Lecture2.ipynb">Lecture 2</a>
 
-<a href="https://github.com/notyetend/NNfML/blob/master/Neural%20Networks%20-%20%20Lecture3.html">Lecture 3</a>
+<a href="https://github.com/notyetend/NNfML/blob/master/Neural%20Networks%20-%20Lecture3.html">Lecture 3</a>
 
 
