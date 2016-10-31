@@ -10,7 +10,7 @@
 
 <a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture3.html">Lecture3, The backpropagation learning procedure, w/PA1</a>
 
-Lecture4, Learning feature vectors for words
+<a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture4.html">Lecture4, Learning feature vectors for words</a>
 
 Lecture5, Object reconition with neural nets, w/PA2
 
