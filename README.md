@@ -16,7 +16,7 @@
 
 <a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture6.html">Lecture6, Optimization: How to make the learning go faster</a>
 
-Lecture7, Recurrent neural networks
+<a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture7.html">Lecture7, Recurrent neural networks</a>
 
 Lecture8, More recurrent neural networks
 
