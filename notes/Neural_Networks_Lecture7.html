@@ -12244,6 +12244,68 @@ $$
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>번외로 간단한 RNN예제를 살펴보자.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img  src="./_images/07_RNN_example2.PNG"/></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>좌측부터 각각 time step $t=0, 1, 2, 3, 4$에서의 RNN을 unroll 해 놓았고, input unit $x$, output unit $y$, logistic($\sigma(z)$) hidden unit $h$로 구성되어 있다. 이때 각 output 값 $y_0, y_1, y_2, y_3$은 아래와 같다.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$\begin{align}
+a_{h0} &= \sigma(w_{xh} x_0 + bias_h) \\
+y_0 &= w_{hy} ~ a_{h0} + bias_y \\
+\\
+a_{h1} &= \sigma(w_{xh} x_1 + bias_h + w_{hh} a_{h0}) \\
+y_1 &= w_{hy} ~ a_{h1} + bias_y \\
+\\
+a_{h2} &= \sigma(w_{xh} x_2 + bias_h + w_{hh} a_{h1}) \\
+y_2 &= w_{hy} ~ a_{h2} + bias_y \\
+\\
+a_{h3} &= \sigma(w_{xh} x_3 + bias_h + w_{hh} a_{h2}) \\
+y_3 &= w_{hy} ~ a_{h3} + bias_y \\
+\end{align}
+$$
+</div>
+</div>
+</div>
     </div>
   </div>
 </body>
