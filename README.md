@@ -18,7 +18,7 @@
 
 <a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture7.html">Lecture7, Recurrent neural networks</a>
 
-Lecture8, More recurrent neural networks
+<a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture8.html">Lecture8, More recurrent neural networks</a>
 
 Lecture9, Ways to make neural networks generalize better, w/PA3
 
