@@ -12048,7 +12048,7 @@ $$when ~~ \frac{\partial C}{\partial w_i} = 0, ~~ w_i = - \frac{1}{\lambda} \fra
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>L2 weight penalty를 사용했을 때 input에 대한 output은 기존과 어떻게 달라지게 될까? L2 weight penalty를 사용할 경우 weight들이 작아지게 되고 예측 성능에 도움이 되지 않는 weight들은 0에 가까운 값으로 바뀌게 된다. 그 결과 model의 generalization이 나아지는 효과가 있다. 또한 input 증가에 따른 output의 변화가 좀더 둔하게 변하게 된다. 또한 squared weight을 penalty로 사용하므로 동일한 input이 들어가는 두개의 weight이 있을 때 ($w$, $0$)보다는 ($w/2$, $w/2$)가 선택된다.</p>
+<p><strong>L2 weight penalty</strong>를 사용했을 때 input에 대한 output은 기존과 어떻게 달라지게 될까? L2 weight penalty를 사용할 경우 weight이 클수록 penalty가 커지므로 크기가 큰 weight들은 거의 남지 않게 된다. 또한 많은 weight들이 0에 가까운 값을 갖게 된다. 결과적으로 예측 성능에 도움이 되지 않는 weight들은 0에 가까운 값으로 바뀌게 된다. 그 결과 model의 generalization이 나아지는 효과가 있다. 또한 input 증가에 따른 output의 변화가 좀더 둔하게 변하게 된다. 또한 squared weight을 penalty로 사용하므로 동일한 input이 들어가는 두개의 weight이 있을 때 ($w$, $0$)보다는 ($w/2$, $w/2$)가 선택된다.</p>
 
 </div>
 </div>
@@ -12068,8 +12068,18 @@ $$when ~~ \frac{\partial C}{\partial w_i} = 0, ~~ w_i = - \frac{1}{\lambda} \fra
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><u>Other kinds of weight penalty</u>
-앞서 소개한 squared weight을 penalty로 사용하는 <strong>L2 weight penalty</strong>외에도 다양한 형태의 weight penalty가 있다. 대표적으로 sum of absolute value of weight을 penalty로 사용하는 <strong>L1 weight penalty</strong>가 있는데, 많은 weight들을 0으로 만들어버리는 효과가 있다. 이밖에도 아래 그림과 같이 큰 weight에 대해 좀더 극단적인 penalty를 주는 방법도 있다.</p>
+<p><u>Other kinds of weight penalty</u></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>앞서 소개한 squared weight을 penalty로 사용하는 L2 weight penalty외에도 다양한 형태의 weight penalty가 있다. 대표적으로 sum of absolute value of weight을 penalty로 사용하는 <strong>L1 weight penalty</strong>가 있는데 weight의 크기에 비례하는 penalty를 부여한다. 이 경우 많은 weight들을 0으로 만들어버리는 효과가 있다. 다만 L2 weight penalty를 사용할 경우 큰 weight들이 사라지는 효과를 갖지만 L1 weight penalty의 경우 크기가 큰 weight들이 어느정도 살아남게 된다.(아래 그래프를 뒤집어 놓은 모양이 weight의 분포라고 생각하면 이해하기 쉬워짐)</p>
+<p>이밖에도 아래 그림과 같이 큰 weight에 대해 서는 좀더 너그러운 penalty를 주는 방법도 있다. 이 경우 아주 작은 weight들을 줄어들고 아주 큰 weight들은 살아남을 것이다.</p>
 
 </div>
 </div>
@@ -13307,8 +13317,8 @@ $$\begin{align} p(w) &= \frac{1}{\sqrt{2 \pi}\sigma} e^{- \frac{w^2}{2 \sigma_W^
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>첫번째 term인 $- ~ log ~ p(D ~ | ~ W)$을 최소화 하는 것은 결국 cost function $E$를 최소화 하는 것이고,<br>
-두번째 term인 $- ~ log ~ p(W)$를 최소화 하는 것은 결국 L2 weight penalty(sum of squared weight)를 최소화 하는 것과 같다.</p>
+<p>첫번째 term인 $-log ~ p(D ~ | ~ W)$을 최소화 하는 것은 결국 cost function $E$를 최소화 하는 것이고,<br>
+두번째 term인 $-log ~ p(W)$를 최소화 하는 것은 결국 L2 weight penalty(sum of squared weight)를 최소화 하는 것과 같다.</p>
 <p>위 식은 Lecture 9b 에서 등장했던 아래 식과 유사한데..
 $$C = E + \frac{\lambda}{2} \sum_i w_i^2$$</p>
 <p>결국 $\frac{\lambda}{2}$이 $\sigma_D^2 / \sigma_W^2$와 같은 의미를 갖는다는 것이다. (이는 data 분산과 weight의 분산의 비 이다.)</p>
