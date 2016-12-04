@@ -20,7 +20,7 @@
 
 <a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture8.html">Lecture8, More recurrent neural networks</a>
 
-Lecture9, Ways to make neural networks generalize better, w/PA3
+<a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture9.html">Lecture9, Ways to make neural networks generalize better, w/PA3</a>
 
 Lecture10, Combining multiple neural networks to improve generalization
 
