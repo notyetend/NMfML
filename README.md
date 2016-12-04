@@ -12,7 +12,7 @@
 
 <a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture4.html">Lecture4, Learning feature vectors for words</a>
 
-<a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture5.html">Lecture5, Object reconition with neural nets, w/PA2</a>
+Lecture5, Object reconition with neural nets, w/PA2
 
 <a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture6.html">Lecture6, Optimization: How to make the learning go faster</a>
 
