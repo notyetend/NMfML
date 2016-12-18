@@ -24,7 +24,7 @@ Lecture5, Object reconition with neural nets, w/PA2
 
 Lecture10, Combining multiple neural networks to improve generalization
 
-Lecture11, Hopfiend nets and Boltzmann machines
+<a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture11.html">Lecture11, Hopfiend nets and Boltzmann machines</a>
 
 Lecture12, Restricted Boltzmann machines(RBMs)
 
