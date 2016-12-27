@@ -26,7 +26,7 @@ Lecture10, Combining multiple neural networks to improve generalization
 
 <a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture11.html">Lecture11, Hopfiend nets and Boltzmann machines</a>
 
-Lecture12, Restricted Boltzmann machines(RBMs)
+<a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture12.html">Lecture12, Restricted Boltzmann machines(RBMs)</a>
 
 Lecture13, Stacking RBMs to make Deep Belief Nets, w/PA4
 
