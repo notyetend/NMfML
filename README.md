@@ -30,7 +30,7 @@ Lecture10, Combining multiple neural networks to improve generalization
 
 <a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture13.html">Lecture13, Stacking RBMs to make Deep Belief Nets, w/PA4</a>
 
-Lecture14, Deep neural nets with generative pre-training
+<a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture14.html">Lecture14, Deep neural nets with generative pre-training</a>
 
 Lecture15, Modeling hierarchical structure with neural nets, w/Final exm
 
