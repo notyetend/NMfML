@@ -1,6 +1,6 @@
 # NNfML
 
-<u>Coursera에 Geoffrey Hinton 교수님 진행하는 [Neural Networks for Machine Learning] 강의를 정리한 페이지 입니다.</u>
+<u>Coursera에서 Geoffrey Hinton 교수님 진행했던 [Neural Networks for Machine Learning] 강의내용 정리.</u>
 
 
 <a href="https://rawgit.com/notyetend/NNfML/master/notes/Neural_Networks_Lecture1.html" target="_blank">Lecture1, Introduction</a>
