@@ -7,7 +7,7 @@
 
 <a href="https://htmlpreview.github.io/?https://github.com/notyetend/NNfML/blob/master/notes/Neural_Networks_Lecture2.html" target="_blank">Lecture2, The Perceptron learning procedure</a>
 
-<a href="https://htmlpreview.github.io/?https://github.com/notyetend/NNfML/blob/master/notes/Neural_Networks_Lecture3.html target="_blank">Lecture3, The backpropagation learning procedure, w/PA1</a>
+<a href="https://htmlpreview.github.io/?https://github.com/notyetend/NNfML/blob/master/notes/Neural_Networks_Lecture3.html" target="_blank">Lecture3, The backpropagation learning procedure, w/PA1</a>
 
 <a href="https://htmlpreview.github.io/?https://github.com/notyetend/NNfML/blob/master/notes/Neural_Networks_Lecture4.html" target="_blank">Lecture4, Learning feature vectors for words</a>
 
